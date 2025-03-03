@@ -1,4 +1,0 @@
-[Router_Info]
-router_id = 3
-input_ports = 4001, 5000
-outputs = 6000-1-1
