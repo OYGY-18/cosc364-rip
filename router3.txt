@@ -1,4 +1,4 @@
 [Router_Info]
 router_id = 3
-input_ports = 4001, 5000
-outputs = 6000-1-1
+input_ports = 3301, 3302
+outputs = 2202-3-2, 4401-4-4
