@@ -1,4 +1,3 @@
-[Router_Info]
-router_id = 3
-input_ports = 3301, 3302
-outputs = 2202-3-2, 4401-4-4
+router_id 3
+input_ports 3301, 3302
+outputs 2202-3-2, 4401-4-4
