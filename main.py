@@ -10,7 +10,7 @@ def main():
     config_file = sys.argv[1]
     config = Config(config_file)
     config.parse_config()
-    config.create_sockets()
+    # config.create_sockets()
 
     print("Configuration and socket setup completed successfully.")
 

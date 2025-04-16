@@ -55,13 +55,13 @@ class Config:
             print(f"Error parsing config file: {e}")
             sys.exit(1)
 
-    def create_sockets(self):
-        self.sockets = []
-        for port in self.input_ports:
-            try:
-                sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                sock.bind(("localhost", port))
-                self.sockets.append(sock)
-            except Exception as e:
-                print(f"Failed to bind socket on port {port}: {e}")
-                sys.exit(1)
+    # def create_sockets(self):
+    #     self.sockets = []
+    #     for port in self.input_ports:
+    #         try:
+    #             sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    #             sock.bind(("localhost", port))
+    #             self.sockets.append(sock)
+    #         except Exception as e:
+    #             print(f"Failed to bind socket on port {port}: {e}")
+    #             sys.exit(1)
